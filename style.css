@@ -84,6 +84,7 @@ body {
     color: black;
     font-size: 35px;
     letter-spacing: 0.1ch;
+    padding-bottom: 20px;
 }
 
 .block {
@@ -251,10 +252,14 @@ body {
     color: #659ac8;
 }
 
+.para {
+  line-height: 0.7cm;  
+}
+
 .bt-1-1 {
     /* margin-top: 20px; */
     margin-left: -638px;
-    margin-top: 81px;
+    margin-top: 90px;
     width: 30ch;
     font-size: 10px;
     padding-top: 10px;
