@@ -4,11 +4,18 @@
     background-size: 100% 100%;
     /* margin: 0;
     top: 0; */
+
 }
 
 body {
     margin: 0;
     margin-top: 0px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .listitems {
@@ -31,7 +38,8 @@ body {
     display: flex;
     justify-content: center;
     letter-spacing: 0.2ch;
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     top: 0;
     margin-top: 0px;
     padding-top: 45px;
@@ -102,13 +110,14 @@ body {
     font-size: 20px;
 }
 
+
 .education {
     width: 45%;
     float: left;
 }
 
 .experience {
-    width: 45%;
+    width: 50%;
     float: right;
 }
 
@@ -125,7 +134,7 @@ body {
 .imageallignment {
     height: 30px;
     width: 30px;
-    margin-top: 800px;
+    margin-top: 1000px;
     margin-left: 40px
 }
 
@@ -172,11 +181,17 @@ body {
     height: 30px;
     width: 110px;
     text-align: center;
-    border-radius: 14px;
-    letter-spacing: 0.2ch;
+    border-radius: 16px;
+    letter-spacing: 0.2rem;
     margin-left: 740px;
     margin-top: 9px;
     font-size: 13px;
+    width: 20ch;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
 }
 
 .bt-2 {
@@ -196,30 +211,55 @@ body {
     font-size: 13px;
 }
 
-.contheading{
+.contheading {
     font-size: 35px;
     letter-spacing: 0.08ch;
     margin-left: 515px;
     margin-top: 144px;
+    padding-bottom: 47px;
 }
 
-.contact{
+.contact {
     margin-left: 70px;
     font-size: 20px;
     margin-left: 104px;
     margin-bottom: -7px;
 }
 
-.block{
+.block {
     /* margin-left: 70px;
     margin-bottom: 10px; */
     border: none;
     background: #333;
     color: #fff;
     width: 50%;
-   padding: 15px;
-   margin: 15px 50px 0 100px;
-   display: inline-block;
-   font-size: 15px;
-   letter-spacing: 0.2ch;
+    padding: 15px;
+    margin: 15px 50px 0 100px;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.2ch;
+    width: 45%;
+    float: left;
+}
+
+.contactinfo {
+    font-size: 20px;
+    margin-top: -72px;
+}
+
+.color {
+    color: #659ac8;
+}
+
+.bt-1-1 {
+    /* margin-top: 20px; */
+    margin-left: -638px;
+    margin-top: 81px;
+    width: 30ch;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* text-align: center; */
 }
