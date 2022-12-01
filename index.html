@@ -11,22 +11,19 @@
 </head>
 
 <body>
-    <section id="backgroundimag">
-        <div class="sticky">
-            <ul class="headers">
-                <li class="listitems"><a href="#home" class="heading">HOME</a></li>
-                <!-- <li class="listitems"><a href="portfolio" class="heading">PORTFOLIO</a></li> -->
-                <li class="listitems"><a href="#resume" class="heading">RESUME</a></li>
-                <li class="listitems"><a href="#about" class="heading">ABOUT</a></li>
-                <li class="listitems"><a href="#contact" class="heading">CONTACT</a></li>
-            </ul>
-        </div>
+    <nav id="navbar">
+        <ul>
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="#resume">RESUME</a></li>
+            <li class="item"><a href="#about">ABOUT</a></li>
+            <li class="item"><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <p id="hey">Hello, I'm</p>
+        <p id="name">Arpita Pathak</p>
+        <p id="res">AND THIS IS MY RESUME</p>
 
-        <div>
-            <p class="name">Hello, I'm</p>
-            <h1 class="name1">Arpita Pathak</h1>
-            <p class="name2">AND THIS IS MY RESUME</p>
-        </div>
     </section>
 
     <section id="resume">
@@ -93,16 +90,15 @@
         </div>
 
         <span>
-            <!-- <button class="bt-1">HIRE ME</button> -->
-            <a href="#contact" class="bt-1">HIRE ME</a>
+            <button class="bt-1">HIRE ME</button>
         </span>
         <span>
             <button class="bt-2">DOWNLODE CV</button>
         </span>
     </section>
     
-    <section id="contact">
-           <p><pre class="contheading">Get<b> In Touch</b></pre></p>
+    <section id="contact" class="bt-1">
+           <p><pre class="contheading">Get<b> In Touch :</b></pre></p>
            <p class="contact">Get In Touch</p>
 
            <div>
@@ -112,23 +108,23 @@
             <textarea  class="block" cols="30" rows="10" placeholder="Write a Massage"></textarea>
            </div>
 
-           <div>
-            <p class="contactinfo">My Contact Details</p>
-            <p class="color">EMAIL</p>
-            <p>site@gmail.com</p>
-            <p class="color">PHONE</p>
-            <p>+30 976 1382 9921</p>
-            <p class="color">FAX</p>
-            <p>+30 976 1382 9922</p>
-            <p class="color">ADDRESS</p>
-            <p class="para">San Francisco, CA <br />
-                4th Floor8 Lower<br /> 
-                San Francisco street, M1 50F
-            </p>
-           </div>
-
-           <span><button type="submit" class="bt-1-1   bt-1">SEND MESSAGE</button></span>
+           <footer id="footer">
+            <ul>
+                <li class="icons"><a class="icon1 icon" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"
+                            aria-hidden="true"></i></a></li>
+                <li class="icons"><a class="icon1 icon" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
+                            aria-hidden="true"></i></a></li>
+                <li class="icons"><a class="icon1 icon" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i></a></li>
+                <li class="icons"><a class="icon1 icon" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"
+                            aria-hidden="true"></i></a></li>
+                <li class="icons"><a class="icon1 icon" href="https://www.github.com" target="_blank"><i class="fa fa-github"
+                            aria-hidden="true"></i></a></li>
+            </ul>
+        </footer>
     </section>
+    
+
 </body>
 
 </html>
