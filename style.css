@@ -101,9 +101,7 @@ html {
     color: white;
 }
 
-#home::after{
-    background-color: aquamarine;
-}
+
 .resumeheading {
     display: flex;
     justify-content: center;
@@ -215,6 +213,10 @@ html {
     font-size: 13px;
 }
 
+#hireMe button{
+    text-decoration: none;
+}
+
 .bt-2 {
     display: inline;
     text-decoration: none;
@@ -241,14 +243,12 @@ html {
     color: black;
 }
 
-#contact{
-    background-color: aqua;
-}
 .contact{
     margin-left: 70px;
     font-size: 20px;
     margin-left: 104px;
     margin-bottom: -7px;
+    text-decoration: none;
 }
 
 .block{
